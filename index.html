@@ -405,12 +405,12 @@
 
 <section class="hero">
   <div class="hero-eyebrow">Nairobi · Solar &amp; Electrical Supplies</div>
-  <h1 class="hero-title">Power your space. <em>Browse, hold, choose.</em></h1>
+  <h1 class="hero-title">Power your space. <em>Browse, choose.</em></h1>
   <div class="hero-row">
     <p class="hero-desc">Solar systems, lighting, electronics and electrical fittings — all in one catalogue. Walk through what we stock before you walk through our door.</p>
     <div class="hero-howto">
       <div class="howto-ring"><svg viewBox="0 0 24 24" fill="none" stroke="#16140f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></div>
-      <span>Press &amp; hold an item to add it to your list</span>
+      <span>Press &amp; select an item to add it to your list</span>
     </div>
   </div>
 </section>
@@ -497,7 +497,7 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5.5 3.4 9.7 8 11 4.6-1.3 8-5.5 8-11V5l-8-3z"/></svg>
       EPRA Licensed Solar Supplier
     </div>
-    <div>© <span id="year"></span> ST Light Kenya. Catalogue for in-store reference — prices subject to confirmation.</div>
+    <div>© <span id="year"></span> ST Light Kenya. Catalogue for in-store reference.</div>
   </div>
 </footer>
 
@@ -505,7 +505,7 @@
 /* ================= CONFIG — edit shop details here ================= */
 const CONFIG = {
   shopName: "ST Light Kenya",
-  whatsappNumber: "254700000000", // <-- replace with real number, format 2547XXXXXXXX, no plus or spaces
+  whatsappNumber: "254719103288", // <-- replace with real number, format 2547XXXXXXXX, no plus or spaces
   branches: [
     "Nyamakima — St Light Building, 1st Floor, Duruma Road",
     "Wabera Street — Standard Building"
@@ -524,23 +524,23 @@ const CATEGORIES = [
 /* ================= PRODUCTS =================
    Copy an object, paste below it, edit the fields, save. */
 const PRODUCTS = [
-  { id:"sol-001", name:"FREEVEL 1HP Submersible Borehole Pump", category:"solar", price:"KSh 28,500", tag:"Best seller", desc:"Solar/AC borehole pump for deep water lifting, built for daily use.", img:"", icon:"pump" },
-  { id:"sol-002", name:"60W Mono Solar Panel", category:"solar", price:"KSh 4,200", tag:"", desc:"High-efficiency monocrystalline panel for home solar kits.", img:"", icon:"panel" },
-  { id:"sol-003", name:"MPPT Solar Charge Controller 30A", category:"solar", price:"KSh 3,800", tag:"", desc:"Smart charge regulation for longer battery life.", img:"", icon:"controller" },
-  { id:"sol-004", name:"LiFePO4 100Ah Battery", category:"solar", price:"KSh 32,000", tag:"New", desc:"Long-life lithium battery for solar backup systems.", img:"", icon:"battery" },
-  { id:"sol-005", name:"All-in-One Solar Street Light 100W", category:"solar", price:"KSh 9,500", tag:"", desc:"Motion-sensor street light with integrated panel and battery.", img:"", icon:"streetlight" },
-  { id:"sol-006", name:"1000W Pure Sine Inverter", category:"solar", price:"KSh 11,000", tag:"", desc:"Clean power output for sensitive home electronics.", img:"", icon:"inverter" },
-  { id:"lig-001", name:"12W LED Bulb (Pack of 4)", category:"lighting", price:"KSh 900", tag:"", desc:"Bright, energy-saving bulbs for everyday home lighting.", img:"", icon:"bulb" },
-  { id:"lig-002", name:"4ft LED Tube Light", category:"lighting", price:"KSh 650", tag:"", desc:"Slim profile tube for offices, shops and corridors.", img:"", icon:"tube" },
-  { id:"lig-003", name:"Rechargeable Emergency Lantern", category:"lighting", price:"KSh 1,800", tag:"", desc:"Backup lighting for blackouts, with USB charging port.", img:"", icon:"lantern" },
-  { id:"lig-004", name:"LED Flood Light 50W", category:"lighting", price:"KSh 2,400", tag:"", desc:"Weatherproof outdoor lighting for compounds and signage.", img:"", icon:"floodlight" },
-  { id:"ele-001", name:"Voltage Surge Protector", category:"electrical", price:"KSh 1,500", tag:"", desc:"Protects appliances from power spikes and surges.", img:"", icon:"surge" },
-  { id:"ele-002", name:"Automatic Transfer Switch (ATS)", category:"electrical", price:"KSh 6,500", tag:"", desc:"Seamless switching between mains and backup power.", img:"", icon:"switch" },
-  { id:"ele-003", name:"DC Isolator Switch", category:"electrical", price:"KSh 1,100", tag:"", desc:"Safety isolation for solar DC circuits.", img:"", icon:"isolator" },
-  { id:"ele-004", name:"4mm Solar Cable (per metre)", category:"electrical", price:"KSh 120", tag:"", desc:"UV-resistant cable rated for outdoor solar installations.", img:"", icon:"cable" },
-  { id:"elc-001", name:"Rechargeable Standing Fan 18\"", category:"electronics", price:"KSh 5,200", tag:"", desc:"Cordless fan with long battery backup, ideal for blackouts.", img:"", icon:"fan" },
-  { id:"elc-002", name:"Hair Clipper Grooming Set", category:"electronics", price:"KSh 1,950", tag:"", desc:"Rechargeable clipper kit for home and barbershop use.", img:"", icon:"clipper" },
-  { id:"elc-003", name:"Portable Power Station 500W", category:"electronics", price:"KSh 24,000", tag:"", desc:"Multi-output backup power for devices, lights and small appliances.", img:"", icon:"station" }
+  { id:"sol-001", name:"FREEVEL 1HP Submersible Borehole Pump", category:"solar", tag:"Best seller", desc:"Solar/AC borehole pump for deep water lifting, built for daily use.", img:"", icon:"pump" },
+  { id:"sol-002", name:"60W Mono Solar Panel", category:"solar", tag:"", desc:"High-efficiency monocrystalline panel for home solar kits.", img:"", icon:"panel" },
+  { id:"sol-003", name:"MPPT Solar Charge Controller 30A", category:"solar", tag:"", desc:"Smart charge regulation for longer battery life.", img:"", icon:"controller" },
+  { id:"sol-004", name:"LiFePO4 100Ah Battery", category:"solar", tag:"New", desc:"Long-life lithium battery for solar backup systems.", img:"", icon:"battery" },
+  { id:"sol-005", name:"All-in-One Solar Street Light 100W", category:"solar", tag:"", desc:"Motion-sensor street light with integrated panel and battery.", img:"", icon:"streetlight" },
+  { id:"sol-006", name:"1000W Pure Sine Inverter", category:"solar", tag:"", desc:"Clean power output for sensitive home electronics.", img:"", icon:"inverter" },
+  { id:"lig-001", name:"12W LED Bulb (Pack of 4)", category:"lighting", tag:"", desc:"Bright, energy-saving bulbs for everyday home lighting.", img:"", icon:"bulb" },
+  { id:"lig-002", name:"4ft LED Tube Light", category:"lighting", tag:"", desc:"Slim profile tube for offices, shops and corridors.", img:"", icon:"tube" },
+  { id:"lig-003", name:"Rechargeable Emergency Lantern", category:"lighting", tag:"", desc:"Backup lighting for blackouts, with USB charging port.", img:"", icon:"lantern" },
+  { id:"lig-004", name:"LED Flood Light 50W", category:"lighting", tag:"", desc:"Weatherproof outdoor lighting for compounds and signage.", img:"", icon:"floodlight" },
+  { id:"ele-001", name:"Voltage Surge Protector", category:"electrical", tag:"", desc:"Protects appliances from power spikes and surges.", img:"", icon:"surge" },
+  { id:"ele-002", name:"Automatic Transfer Switch (ATS)", category:"electrical", tag:"", desc:"Seamless switching between mains and backup power.", img:"", icon:"switch" },
+  { id:"ele-003", name:"DC Isolator Switch", category:"electrical", tag:"", desc:"Safety isolation for solar DC circuits.", img:"", icon:"isolator" },
+  { id:"ele-004", name:"4mm Solar Cable (per metre)", category:"electrical", tag:"", desc:"UV-resistant cable rated for outdoor solar installations.", img:"", icon:"cable" },
+  { id:"elc-001", name:"Rechargeable Standing Fan 18\"", category:"electronics", tag:"", desc:"Cordless fan with long battery backup, ideal for blackouts.", img:"", icon:"fan" },
+  { id:"elc-002", name:"Hair Clipper Grooming Set", category:"electronics", tag:"", desc:"Rechargeable clipper kit for home and barbershop use.", img:"", icon:"clipper" },
+  { id:"elc-003", name:"Portable Power Station 500W", category:"electronics", tag:"", desc:"Multi-output backup power for devices, lights and small appliances.", img:"", icon:"station" }
 ];
 
 /* ================= ICONS (line-art, used as fallback when no img) ================= */
